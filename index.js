@@ -6,7 +6,7 @@ app.use(express.json());
 const PORT=process.env.PORT||3000;
 
 mongoose
-    .connect('mongodb+srv://dwivediharshit9:admin123@cluster0.xpup5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+    .connect('YOUR ENDPOINT')
     .then(() => {
         console.log('Connected to MongoDB');
     })
